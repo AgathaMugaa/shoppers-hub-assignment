@@ -1,0 +1,203 @@
+.home{
+	height: 100vh;
+	background: url("images/shoppers-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	overflow-x: hidden;
+}
+header{
+	padding: 20px;
+}
+nav button, span{
+	color: #FFF;
+}
+nav span{
+	font-size: 30px;
+}
+nav ul li a{
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+	margin-right: 10px;ss
+	transition: 0.5s;
+}
+nav ul li a:hover{
+	background: #FFF;
+	color: #000;
+}
+footer{
+	position: relative;
+	top: 85%;
+	text-align: center;
+}
+/* Login section */
+form{
+   background: #FFF;
+   padding: 20px;
+   border-radius: 3px;
+}
+input{
+	background: #E3E3E3;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100%;
+	border: 1px solid transparent;
+	outline: none;
+}
+.login .signinBtn{
+   margin-bottom: 15px;
+   margin-top: 20px;
+   float: right;
+}
+.forgot .signinBtn{
+	margin-bottom: 15px;
+   margin-top: 20px;
+   float: right;
+}
+.register button{
+   margin-bottom: 20px;
+   margin-top: 20px;
+   float: right;
+}
+.forgot{
+	margin-top: 30px;
+}
+/* Contact section */
+.contact textarea{
+	background: #E3E3E3;
+	height: 100px;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	outline: none;
+	margin-bottom: 20px;
+}
+.contact button{
+   margin-bottom: 30px;
+   float: right;
+}
+/* About section */
+.about-content{
+	background: #000000a0;
+	border-radius: 5px;
+	color: #FFF;
+	padding: 30px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+.social li{
+    list-style: none;
+    color: #FFF;
+}
+.social li a:hover{
+    transform: scale(0.5) translateY(-15px);
+}
+.social-icons{
+	margin-top: 20px;
+	margin-right: 20px;sss
+    font-size: 35px;
+    color: #FFF;
+}
+/* Smart phones */
+@media only screen and (max-width: 600px) {
+    .form-container{
+         margin: 150px 0 0 0;
+     }
+     input{
+     	width: 300px;
+     }
+     .about{
+     	padding: 25px;
+     }
+     .contact{
+     	  margin: 50px 0 0 0;
+     	  height: 500px;
+     }
+      .about-content{
+     	margin: 50px 0 0 0 ;
+     }
+ }
+ /* Tablets */
+ @media only screen and(min-width: 600px) {
+    
+ }
+ /* Ipads */
+ @media only screen and (min-width: 768px) {
+      .register, .login{
+         margin: 100px 0 0 30px;
+     }
+     .contact{
+     	  margin: 100px 0 0 30px;
+     }
+     .contact form{
+     	height: 480px;
+     }
+     .about-content{
+     	margin: 300px 0 0 0;
+     }
+ }
+ /* tops comps */
+ @media only screen and (min-width: 992px) {
+     .register, .login, .forgot{
+         margin: 300px 200px 0 200px;
+         padding: 0 250px 0 430px;
+     }
+     .contact{
+     	  margin: 200px 200px 0 200px;
+          padding: 0 250px 0 430px;
+     }
+     .forgot form{
+     	  height: 230px;
+     	  width: 500px;
+     }
+      .login form{
+     	height: 300px;
+     	width: 500px;
+     }
+     .register form{
+     	height: 350px;
+     	width: 500px;
+     }
+      .contact form{
+     	height: 480px;
+     }
+       .about-content{
+     	margin: 300px 100px 0px 300px;
+     	width: 700px;
+     }
+ }
+ /*Computer and tvs, large screens */
+ @media only screen and (min-width: 1200px) {
+    .login, .register, .forgot{
+          margin: 300px 200px 0 200px;
+          padding: 0 250px 0 430px;
+     }
+     .contact{
+     	  margin: 200px 200px 0 200px;
+          padding: 0 250px 0 430px;
+     }
+     .login form{
+     	height: 300px;
+     	width: 500px;
+     }
+     .register form{
+     	height: 350px;
+     	width: 500px;
+     }
+     .contact form{
+     	height: 480px;
+     }
+     .about-content{
+     	margin: 300px 100px 0px 300px;
+     	width: 700px;
+     }
+ }
